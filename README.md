@@ -1,2 +1,0 @@
-Entact App
-====
