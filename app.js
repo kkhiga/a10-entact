@@ -9,8 +9,6 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var login = require('./routes/login');
-// var browse_A = require('./routes/browse_A');
-// var browse_B = require('./routes/browse_B');
 var browse = require('./routes/browse');
 var add = require('./routes/add');
 var createEvent = require('./routes/createEvent');
