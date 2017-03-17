@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -6,11 +7,9 @@
   <meta charset="UTF-8">
 
   <title>Entact Login Page</title>
-  <link href="https://fonts.googleapis.com/css?family=Raleway|Yellowtail" rel="stylesheet">
 
     <style>
-@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+@import url('https://fonts.googleapis.com/css?family=Raleway|Yellowtail');
 
 body{
 	margin: 0;
@@ -18,25 +17,9 @@ body{
 	background: #fff;
 
 	color: #fff;
-	font-family: Arial;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
-	overflow: hidden;
 }
-  .background-image{
-    background-image: url(http://treehouseblog.com/wp-content/uploads/2014/03/pereira2_o.jpg);
-    position: absolute; 
-    top: -20px;
-    left: -20px;
-    right: -40px;
-    bottom: -40px;
-    width: 110%;
-    height: 110%;
-    background-position: center;
-    background-size: cover;
-    -webkit-filter: blur(5px);
-    z-index: 0;
-    overflow: hidden;
-  }
 
 .body{
 	position: absolute;
@@ -44,13 +27,13 @@ body{
 	left: -20px;
 	right: -40px;
 	bottom: -40px;
-	width: auto;
-	height: auto;
+	width: 110%;
+	height: 110%;
 	background-image: url(http://treehouseblog.com/wp-content/uploads/2014/03/pereira2_o.jpg);
 	background-size: cover;
 	-webkit-filter: blur(5px);
 	z-index: 0;
-	font-family: 'Raleway',sans-serif;
+	background-position: center;
 }
 
 .grad{
@@ -76,7 +59,7 @@ body{
 .header div{
 	float: left;
 	color: #fff;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Yellowtail', sans-serif;
 	font-size: 60px;
 	font-weight: 150;
 }
@@ -102,7 +85,7 @@ body{
 	border: 1px solid rgba(255,255,255,0.6);
 	border-radius: 2px;
 	color: #fff;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	padding: 4px;
@@ -115,7 +98,7 @@ body{
 	border: 1px solid rgba(255,255,255,0.6);
 	border-radius: 2px;
 	color: #fff;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	padding: 4px;
@@ -130,7 +113,7 @@ body{
 	cursor: pointer;
 	border-radius: 2px;
 	color: #a18d6c;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	padding: 6px;
@@ -177,7 +160,7 @@ body{
   <div class="body"></div>
 		<div class="grad"></div>
 		<div class="header">
-			<div style="font-family: 'Yellowtail',sans-serif;">Ent<span>act</span></div>
+			<div>Ent<span>act</span></div>
 		</div>
 		<br>
 		<div class="login">
@@ -186,7 +169,6 @@ body{
 				<input type="button" value="Login" id="loginBtn">
 		</div>
 
-  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
   <script type="text/javascript">
     document.getElementById("loginBtn").onclick = function () {
         location.href = "/browse";
